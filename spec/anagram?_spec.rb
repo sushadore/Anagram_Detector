@@ -14,7 +14,7 @@ describe('String#anagram?') do
     expect(('naan').anagram?('naan')).to(eq("palindrome"))
   end
 
-  # it('identifies non-words as words without vowels') do
-  #   expect(('get').anagram?('tph')).to(eq("not a word"))
-  # end
+  it('identifies non-words as words without vowels') do
+    expect(('get').anagram?('tph')).to(eq("not a word"))
+  end
 end
