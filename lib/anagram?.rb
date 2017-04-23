@@ -1,7 +1,7 @@
 class String
   define_method(:anagram?) do |word2|
-    word1 = self.downcase.split("")
-    word2 = word2.downcase.split("")
+    word1 = self.downcase.delete("^a-z").split("")
+    word2 = word2.downcase.delete("^a-z").split("")
     vowels = ["a", "e", "i", "o", "u", "y"]
 
 

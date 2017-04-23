@@ -6,7 +6,7 @@ describe('String#anagram?') do
     expect(('tea').anagram?('eat')).to(eq("anagram"))
   end
 
-  it('correctly identifies anagrams regardless of capitalization') do
+  it('identifies anagrams regardless of capitalization') do
     expect(('Act').anagram?('caT')).to(eq("anagram"))
   end
 
@@ -20,5 +20,9 @@ describe('String#anagram?') do
 
   it('identifies antigrams') do
     expect(('stop').anagram?('end')).to(eq("antigram"))
+  end
+
+  it('identifies phrases which are anagrams') do
+    expect(('actor!').anagram?('or act?')).to(eq("anagram"))
   end
 end

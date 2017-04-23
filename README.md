@@ -5,3 +5,4 @@
 |Identifies palindromes|naan & naan|palindrome|
 |Identifies words without vowels|hwr|not a word|
 |Identifies antigrams|stop|end|antigram|
+|Identifies anagrams despite spaces and punctuation|A gate|agate|anagram|
