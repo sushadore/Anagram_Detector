@@ -17,4 +17,8 @@ describe('String#anagram?') do
   it('identifies non-words as words without vowels') do
     expect(('get').anagram?('tph')).to(eq("not a word"))
   end
+
+  it('identifies antigrams') do
+    expect(('stop').anagram?('end')).to(eq("antigram"))
+  end
 end
