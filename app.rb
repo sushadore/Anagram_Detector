@@ -8,8 +8,6 @@ get('/') do
 end
 
 get('/result') do
-  @word1 = params.fetch('word1')
-  @word2 = params.fetch('word2')
-  @result = @word1.anagram?(@word2)
+  @result = params.fetch('word1').anagram?(params.fetch('word2'))
   erb(:result)
 end
