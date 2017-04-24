@@ -21,7 +21,3 @@ This site requires a machine with Ruby installed. View the repository at https:/
 ## License
 MIT license
 Copyright (c) 2017 Susha Dore
-
-## License
-MIT license
-Copyright (c) 2017 Susha Dore
