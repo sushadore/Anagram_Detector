@@ -9,9 +9,9 @@ This web page identifies two words as anagrams, antigrams, palindromes or non wo
 |----------|:--------:|:--------:
 |Takes two words and identifies them as anagrams|smelt & melts|anagram|
 |Identifies anagram regardless of capitalization|Astronomer & Moon Starer|anagram|
-|Identifies palindromes|naan & naan|palindrome|
-|Identifies words without vowels|hwr|not a word|
-|Identifies antigrams|stop & end|antigram|
+|Identifies palindromes|naan & anna|palindrome|
+|Identifies words without vowels|hwrxcv|not a word|
+|Identifies antigrams|fabulous & tripper|antigram|
 |Identifies anagrams despite spaces and punctuation|Election results: & Lies! Let's recount.|anagram|
 ## Setup
 This site requires a machine with Ruby installed. View the repository at https://github.com/sushadore/anagrams. This is a static site but follow these steps for a browser preview:
