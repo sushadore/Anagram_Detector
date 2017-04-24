@@ -6,13 +6,13 @@ class String
 
 
     if !word1.any? { |l| vowels.include? l } || !word2.any? { |l| vowels.include? l }
-      "not a word" # not_a_word = true
+      "not a word" 
     elsif !word1.any? { |i| word2.include? i }
-      "antigram" # antigram = true
-    elsif word1.reverse == word2 # word1.revers == word1 || word2.reverse == word2
-      "palindrome" # is_palindrome = true
+      "antigram"
+    elsif word1.reverse == word2
+      "palindrome"
     elsif word1.sort == word2.sort
-      "anagram" # is_anagram = true
+      "anagram"
     end
   end
 end
