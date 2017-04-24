@@ -12,7 +12,7 @@ class String
     elsif word1.reverse == word2
       "palindrome"
     elsif word1.sort == word2.sort
-      "anagram" 
+      "anagram"
     end
   end
 end
